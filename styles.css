@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+}
+#page{
+    background-color: #18191A;
+}
+#NavbarContainer {
+  background-color: #242526;
+  padding: 8px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.NavbarWrapper {
+  background-color: #242526;
+
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.NavbarElements {
+  background-color: #242526;
+
+  color: white;
+  opacity: 60%;
+  margin: 3px 35px 0 5px;
+  font-size: 23px;
+  cursor: pointer;
+}
+.NavbarElements:hover {
+  opacity: 100%;
+}
+
+.NavbarElementIs {
+  background-color: #242526;
+
+  position: relative;
+  right: 25px;
+  cursor: pointer;
+}
+.NavbarElementIs > h2 {
+  opacity: 60%;
+}
+.NavbarElementIs:hover > h2:hover {
+  opacity: 100%;
+}
+
+.NavbarElementsLogo {
+  color: #74c69d;
+  background-color: #242526;
+
+  cursor: pointer;
+  margin: 10px 600px 0 20px;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+#ProfileSection {
+  padding: 30px 0 0 0;
+
+  display: flex;
+  justify-content: center;
+}
+#ProfileContainer {
+  background-color: #242526;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px 150px 0 150px;
+}
+
+@media screen and (max-width: 1150px) {
+  #ProfileContainer {
+    padding: 0;
+  }
+}
+#Picture {
+  background-color: #242526;
+}
+.CoverPhoto {
+  background-color: #242526;
+
+  padding: 0 50px 0 50px;
+}
+.CoverImage {
+  width: 700px;
+  height: 350px;
+}
+.ProfilePhoto {
+  background-color: #242526;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 40px !important;
+}
+.BigProfile {
+  border: 2px solid white;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  margin-top: -210px;
+  margin-left: -20px;
+  cursor: pointer;
+}
+.ProfileDetails {
+  background-color: #242526;
+  padding: 50px;
+  border: 1px solid #444547;
+  margin: 0 0 11px 0;
+}
+.ProfileDetails > h1,
+h3,
+p {
+  background-color: #242526;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: rgb(112, 228, 183);
+  padding: 0 0 0 210px;
+  max-width: 300px;
+}
+.ProfileDetails > h3 {
+  color: rgb(202, 202, 202);
+
+  font-size: 25px;
+  padding: 0 0 0 230px;
+  max-width: 300px;
+}
+.ProfileDetails > h1 {
+  color: #e4e6eb;
+  font-size: 25px;
+  padding: 0 0 0 210px;
+  max-width: 300px;
+}
+#InfoSection {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0 10px 230px;
+}
+.InfoContainer {
+  flex: 0.5;
+  background-color: #242526;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 150px 0 150px;
+  margin: 10px 0 0 10px;
+}
+.InfoWrapper > h1 {
+  background-color: #242526;
+  color: whitesmoke;
+  font-weight: 900;
+  font-size: 23px;
+}
+.InfoContainer2 {
+  flex: 0.21;
+  background-color: #242526;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 100px 0 100px;
+  margin: 10px 0 0 10px;
+}
+.list {
+  list-style-type: none;
+  background-color: #242526;
+
+}
+.content {
+  background-color: #464849;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 150px;
+  display: flex;
+  justify-self: flex-start;
+  color: rgb(219, 216, 216);
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  position: relative;
+  right: 80px;
+}
+
+.content:hover {
+  background-color: #676969;
+}
+
+.PreferenceContaier > h1 {
+    position: relative;
+    right: 80px;
+  background-color: #242526;
+  color: whitesmoke;
+  font-weight: 900;
+  font-size: 20px;
+}
+.PreferenceContaier {
+  background-color: #242526;
+}
+.grid{
+    display: grid;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
